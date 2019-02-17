@@ -27,6 +27,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/particles.js"></script>
 
+
+
 	<title>Christopher Villaba || Portfolio</title>
 </head>
 <body>
@@ -40,6 +42,7 @@
 			<a href="#navCollapse" class="btn btn-outline-warning col-md-4">More ..</a>
 		</div>
 		</div>
+		
 	</header>
 
 	<main>
@@ -52,10 +55,11 @@
 		<div class="collapse navbar-collapse" id="navCollapse">
 			<ul class="navbar-nav col-md-2 ml-auto" id="ul">
 				<li class="nav-item"><a class="nav-link" href="#navCollapse">About</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+				<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 			</ul>
 		</div>
+
 	</nav>
 
 		<div class="container-fluid" id="about">
@@ -79,7 +83,7 @@
 				<img data-aos="flip-up" src="assets/images/laptop.svg">
 		</div>	
 
-		<section class="container-fluid">
+		<section class="container-fluid" id="portfolio">
 			<h2 class="jumbotron bg-secondary text-center">Portfolio</h2>
 			<div class="row">
 				<div class="col-md-4">	
@@ -178,7 +182,7 @@
 							<span class="badge border border-primary"><i class="devicon-bootstrap-plain-wordmark colored"></i> Bootstrap</span>
 							<span class="badge border border-primary"><i class="devicon-javascript-plain colored"></i> Javascript</span>
 						</div>
-						<div class="card-footer">	
+						<div class="card-footer" >	
 							<a href="#" class="btn btn-primary btn-block card-link">Link</a>
 						</div>
 					</div>
@@ -188,13 +192,19 @@
 
 
 	</main>
-	<footer class="bg-dark">
+	<footer class="bg-dark" id="contact">
 		<h1>daskd;a</h1>
 	</footer>
+	
+	<!-- javascript -->
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	
 	<script>
-    AOS.init();
-  </script>
+    	AOS.init();
+  	</script>
+	
 	<script type="text/javascript" src="assets/js/app.js"></script>
+	<!-- end of javascript -->
+
 </body>
 </html>

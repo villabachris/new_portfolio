@@ -23,16 +23,16 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#d38c06"
       },
       "shape": {
-        "type": "circle",
+        "type": "triangle",
         "stroke": {
           "width": 0,
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 10
         },
         "image": {
           "src": "img/github.svg",
