@@ -84,3 +84,163 @@ section{
 footer h1{
 	margin: 0;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.header{
+		height: 100vh;
+		background-image:url('../images/me.jpg');
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size:cover;
+		position: relative; 
+		z-index: 1;
+		/*display: none;*/
+
+	}
+	
+	#about .content{
+		/*display: none;*/
+		z-index: 0;
+		width: 500px;
+		height: 500px;
+		top: -257px;
+		left: -200px;
+		position: absolute;
+		background-color: yellow;
+		-webkit-clip-path: circle(50% at 50% 50%);
+		clip-path: circle(50% at 50% 50%);
+	}
+	#about>img{
+		/*display: none;*/
+		position: absolute;
+		z-index: 10;
+		top: 6px;
+		left: 31px;
+		width: 300px;
+		height: 300px;
+		/*visibility: hidden;*/
+	}
+
+	#title{
+		/*display: none;*/
+		width: 330px;
+		height: 300px;
+		position: absolute;
+		border: 5px solid yellowgreen;
+		top: 200px;
+		text-align: center;
+		/*display: none;*/
+		/*visibility: hidden;*/
+	}
+
+	#title h1{
+		/*display: none;*/
+		/*visibility: hidden;*/
+		line-height: 80px;
+		font-size: 35px;
+	}
+
+	#title h2{
+		/*display: none;*/
+		/*visibility: hidden;*/
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	#about .container{
+		/*display: none;*/
+		/*visibility: hidden;*/
+		position: absolute;
+		left: 20px;
+		top: 290px;
+		font-size: 10px;
+		width: 300px;
+
+	}
+	#about{
+	/*display: none;*/
+	height: 100vh;
+	background-color: #e2e2e2;
+	position: relative;
+	}
+	#portfolio .jumbotron{
+		padding: 0;
+	}
+	#portfolio .container-fluid{
+		padding: 0;
+	}
+	#portfolio .col-md-4{
+		padding: 0;
+	}
+	#portfolio .col-md-8{
+		padding: 0;
+
+	}
+/*
+	#portfolio .card-body{
+		padding: 0;
+	}
+
+	#portfolio .card-text{
+		padding: 0;
+		font-size: 15px;
+	}*/
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
