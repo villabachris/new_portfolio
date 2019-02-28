@@ -1,5 +1,4 @@
 
-
 .header{
 	height: 100vh;
 	background-image:url('../images/me.jpg');
@@ -12,8 +11,8 @@
 }
 
 #title{
-	width: 1000px;
-	height: 300px;
+	width: 800px;
+	height: 400px;
 	position: absolute;
 	border: 5px solid yellowgreen;
 	top: 200px;
@@ -70,199 +69,54 @@
 	z-index: 10;
 	top: 100px;
 	left: 100px;
-	width: 100px;
-	height: 100px;
+	width: 400px;
+	height: 400px;
 }
 #about .container{
 	position: absolute;
-	left: 350px;
+	left: 549px;
 	top: 200px;
 
 }
-#title{
-	width: 100px;
-	height: 30px;
-	position: absolute;
-	border: 5px solid yellowgreen;
-	top: 200px;
-	text-align: center;
-}
 
-
-}
-section{
-	min-height: 100vh;
-}
-footer h1{
-	margin: 0;
-}
-
-<<<<<<< HEAD
-
-
-
-/* Custom, iPhone Retina */ 
-    @media only screen and (min-width : 320px) {
-
-    }
-
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-    		
-    #about>img{
-	position: absolute;
-	z-index: 10;
-	top: 60px;
-	left: 102px;
-	width: 174px;
-	height: 167px;
-}
-
-#about .container{
-	/*position: none;*/
-	left: -2px;
-	top: 206px;
-}
-
-
-#title h1{
-	line-height: 5px;
-	font-size: 10px;
-}
-#title h2{
-	font-size: 40px;
-	line-height: 44px;
-}
-
-
-
-#title{
-	width: 328px;
-	height: 300px;
-	position: absolute;
-	border: 5px solid yellowgreen;
-	top: 200px;
-	text-align: center;
-}
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
-
-    }
-
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
-    }
-=======
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-	.header{
-		height: 100vh;
-		background-image:url('../images/me.jpg');
-		background-repeat: no-repeat;
-		background-position: left;
-		background-size:cover;
-		position: relative; 
-		z-index: 1;
-		/*display: none;*/
+/* Styles */
 
-	}
-	
-	#about .content{
-		/*display: none;*/
-		z-index: 0;
-		width: 500px;
-		height: 500px;
-		top: -257px;
-		left: -200px;
-		position: absolute;
-		background-color: yellow;
-		-webkit-clip-path: circle(50% at 50% 50%);
-		clip-path: circle(50% at 50% 50%);
-	}
-	#about>img{
-		/*display: none;*/
-		position: absolute;
-		z-index: 10;
-		top: 6px;
-		left: 31px;
-		width: 300px;
-		height: 300px;
-		/*visibility: hidden;*/
-	}
+#title{
+	width: 325px;
+	height: 400px;
+	position: absolute;
+	border: 5px solid yellowgreen;
+	top: 200px;
+	text-align: center;
+}
 
-	#title{
-		/*display: none;*/
-		width: 330px;
-		height: 300px;
-		position: absolute;
-		border: 5px solid yellowgreen;
-		top: 200px;
-		text-align: center;
-		/*display: none;*/
-		/*visibility: hidden;*/
-	}
+#title h1{
+	line-height: 58px;
+	font-size: 56px;
+}
+#title h2{
+	font-size: 20px;
+	line-height: 20px;
+}
 
-	#title h1{
-		/*display: none;*/
-		/*visibility: hidden;*/
-		line-height: 80px;
-		font-size: 35px;
-	}
+#about .container{
+	position: absolute;
+	left: 5px;
+	top: 250px;
+}
 
-	#title h2{
-		/*display: none;*/
-		/*visibility: hidden;*/
-		font-size: 30px;
-		line-height: 40px;
-	}
-
-	#about .container{
-		/*display: none;*/
-		/*visibility: hidden;*/
-		position: absolute;
-		left: 20px;
-		top: 290px;
-		font-size: 10px;
-		width: 300px;
-
-	}
-	#about{
-	/*display: none;*/
-	height: 100vh;
-	background-color: #e2e2e2;
-	position: relative;
-	}
-	#portfolio .jumbotron{
-		padding: 0;
-	}
-	#portfolio .container-fluid{
-		padding: 0;
-	}
-	#portfolio .col-md-4{
-		padding: 0;
-	}
-	#portfolio .col-md-8{
-		padding: 0;
-
-	}
-/*
-	#portfolio .card-body{
-		padding: 0;
-	}
-
-	#portfolio .card-text{
-		padding: 0;
-		font-size: 15px;
-	}*/
+#about>img{
+	position: absolute;
+	z-index: 10;
+	top: 78px;
+	left: 80px;
+	width: 195px;
+	height: 186px;
+}
 
 }
 
@@ -319,4 +173,3 @@ only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
->>>>>>> fe5791aa9907c8e7e53152d45722073aca1bb853
